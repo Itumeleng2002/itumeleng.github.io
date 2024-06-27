@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Itumeleng Pitso</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <span class="logo"></span>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <div class="hero-image">
+                    <img src="image.jpeg" alt="Itumeleng Lawrence Pitso">
+                </div>
+                <div class="hero-text">
+                    <h1 id="typed-text"></h1>
+                    <p><b>Aspiring Business Analyst</b></p>
+                    <p>Highly motivated and detail-oriented informatics student with a solid technical foundation in database administration, programming languages, and business analysis principles. </p>
+                    <p>Proficient in leveraging technical expertise to drive efficient solutions and passionate about staying up-to-date with industry trends and advancements.</p>
+                    <div class="contact-icons">
+                        <a href="mailto:Itumelengpitso758@gmail.com"><img src="email.png" alt="Email"></a>
+                        <a href="https://github.com/Itumeleng2002" target="_blank"><img src="github.png" alt="GitHub"></a>
+                        <a href="https://www.linkedin.com/in/itumeleng-pitso-596b6b24b" target="_blank"><img src="linkedin.webp" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+  
+
+   
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var options = {
+                strings: ["Hi, I am Itumeleng Pitso"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true
+            };
+            var typed = new Typed("#typed-text", options);
+        });
+    </script>
+</body>
+</html>

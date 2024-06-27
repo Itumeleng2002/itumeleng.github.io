@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f0f2f5;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.hero-image {
+    flex: 0 0 25%;
+    max-width: 150px;
+    margin-right: 30px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contact-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+section {
+    padding: 40px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.percentage {
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.java {
+    width: 80%;
+}
+
+.data-analysis {
+    width: 75%;
+}
+
+.mysql {
+    width: 70%;
+}
+
+.project-management {
+    width: 65%;
+}
+
+.problem-solving {
+    width: 60%;
+}
+
+.adaptability {
+    width: 75%;
+}
+
+.download-button {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
